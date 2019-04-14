@@ -97,7 +97,7 @@ end
         .........................................................
 
 
-ref_image=imread('/home/rohitmm/Pictures/FROG_POND.jpg');   %reading refrence image..(use image path accoringly.)..
+ref_image=imread('add_full_path_of_the_image_file_here(exaple:/home/rohitmm/Pictures/FROG_POND.jpg)');   %reading refrence image..(use image path accoringly.)..
 [ref_m ref_n]=size(ref_image);
 [ca,ch,cv,cd]=dwt2(im2double(ref_image),'db2'); %........2D Wavelet transform of refrence image
                                                 %some other mother wavelet
